@@ -6,7 +6,7 @@
 - Variables when defined can be given default values, so that when no value is specified for them, they take the default values.
 - Variables and their values can be defined in terraform.tfvars file separately.
 - Also variable value can be specified as a flag at command line as per below commands,<br>
-`terraform plan -var=instance_type="t2.micro"`
+`terraform plan -var=instance_type="t2.micro"`<br>
 `terraform apply -var=instance_type="t2.micro"`
 
 ### Output Values
